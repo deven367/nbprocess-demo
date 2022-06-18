@@ -1,4 +1,3 @@
-
 ipynb-filters: [nbprocess_filter]
 
 project:
@@ -15,11 +14,15 @@ format:
     toc: true
 
 website:
-  title: "nbprocess"
+  title: "nbprocess_demo"
+  description: "test description"
+  execute: 
+    enabled: false
   twitter-card: true
+  open-graph: true
   reader-mode: true
   repo-branch: master
-  repo-url: https://github.com/fastai/nbprocess
+  repo-url: https://github.com/deven367/nbprocess_demo/tree/master/
   repo-actions: [issue]
   navbar:
     background: primary
@@ -29,9 +32,11 @@ website:
         file: index.ipynb
     right:
       - icon: github
-        href: https://github.com/fastai/nbprocess/
+        href: https://github.com/deven367/nbprocess_demo/tree/master/
   sidebar:
     style: "floating"
 
 metadata-files: 
   - sidebar.yml
+  - custom.yml
+
