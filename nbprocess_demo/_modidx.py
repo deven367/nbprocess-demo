@@ -26,4 +26,5 @@ d = { 'settings': { 'audience': 'Developers',
                 'user': 'deven367',
                 'version': '0.0.1'},
   'syms': { 'nbprocess_demo.core': { 'nbprocess_demo.core.add': 'https://deven367.github.io/nbprocess_demo/core#add',
+                                     'nbprocess_demo.core.add2': 'https://deven367.github.io/nbprocess_demo/core#add2',
                                      'nbprocess_demo.core.foo': 'https://deven367.github.io/nbprocess_demo/core#foo'}}}
