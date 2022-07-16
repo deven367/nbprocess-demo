@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "utils.html",
+    "href": "utils.html",
+    "title": "Utils",
+    "section": "",
+    "text": "tree\n\n tree (dir_path:pathlib.Path, level:int=-1,\n       limit_to_directories:bool=False, length_limit:int=1000)\n\nGiven a directory Path object print a visual tree structure\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\ndir_path\nPath\n\npath of the directory\n\n\nlevel\nint\n-1\nlevel of folders to scrape\n\n\nlimit_to_directories\nbool\nFalse\nflag to either list or scrape folders\n\n\nlength_limit\nint\n1000\nlength of the total output\n\n\nReturns\nNone\n\n\n\n\n\n\ntree('.')\n\n\n├── .gitignore\n├── .quarto\n│   ├── crossref\n│   │   ├── index.ipynb\n│   │   │   ├── index.html.json\n│   │   │   └── README.md.json\n│   │   └── 00_core.ipynb\n│   │       └── core.html.json\n│   ├── idx\n│   │   ├── 00_core.ipynb.json\n│   │   └── index.ipynb.json\n│   └── preview\n│       └── lock\n├── docs\n│   ├── search.json\n│   ├── site_libs\n│   │   ├── bootstrap\n│   │   │   ├── bootstrap-icons.css\n│   │   │   ├── bootstrap.min.js\n│   │   │   ├── bootstrap.min.css\n│   │   │   └── bootstrap-icons.woff\n│   │   ├── quarto-html\n│   │   │   ├── quarto.js\n│   │   │   ├── tippy.umd.min.js\n│   │   │   ├── popper.min.js\n│   │   │   ├── quarto-syntax-highlighting.css\n│   │   │   ├── anchor.min.js\n│   │   │   └── tippy.css\n│   │   ├── clipboard\n│   │   │   └── clipboard.min.js\n│   │   ├── quarto-search\n│   │   │   ├── quarto-search.js\n│   │   │   ├── fuse.min.js\n│   │   │   └── autocomplete.umd.js\n│   │   └── quarto-nav\n│   │       ├── quarto-nav.js\n│   │       └── headroom.min.js\n│   ├── core.html\n│   └── index.html\n├── sidebar.yml\n├── .ipynb_checkpoints\n│   └── 01_utils-checkpoint.ipynb\n├── index.ipynb\n├── 01_utils.ipynb\n├── 00_core.ipynb\n└── _quarto.yml\n\n14 directories, 32 files"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "Core",
+    "section": "",
+    "text": "foo\n\n foo ()\n\n\n\n\nadd\n\n add (x:int, y:int, z:int)\n\nreturns sum of the three numbers\n\n\n\n\nType\nDetails\n\n\n\n\nx\nint\nnumber 1\n\n\ny\nint\nnumber 1\n\n\nz\nint\nnumber 2\n\n\nReturns\nint\nlast number\n\n\n\n\nadd(10, 10, 10)\n\n30\n\n\ntest_eq(add(10, 10, 10), 30)\n\n\n\nadd2\n\n add2 (x:int, y:int, z:int)\n\nreturns sum of the three numbers\n\n\n\n\nType\nDetails\n\n\n\n\nx\nint\nnumber 1\n\n\ny\nint\nnumber 1\n\n\nz\nint\nnumber 2\n\n\nReturns\nint\nlast number"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbprocess_demo",
+    "section": "",
+    "text": "pip install nbprocess_demo"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbprocess_demo",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  }
+]
