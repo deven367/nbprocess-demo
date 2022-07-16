@@ -28,4 +28,9 @@ d = { 'settings': { 'audience': 'Developers',
                 'version': '0.0.1'},
   'syms': { 'nbprocess_demo.core': { 'nbprocess_demo.core.add': 'https://deven367.github.io/nbprocess_demo/core#add',
                                      'nbprocess_demo.core.add2': 'https://deven367.github.io/nbprocess_demo/core#add2',
-                                     'nbprocess_demo.core.foo': 'https://deven367.github.io/nbprocess_demo/core#foo'}}}
+                                     'nbprocess_demo.core.foo': 'https://deven367.github.io/nbprocess_demo/core#foo'},
+            'nbprocess_demo.utils': { 'nbprocess_demo.utils.branch': 'https://deven367.github.io/nbprocess_demo/utils#branch',
+                                      'nbprocess_demo.utils.last': 'https://deven367.github.io/nbprocess_demo/utils#last',
+                                      'nbprocess_demo.utils.space': 'https://deven367.github.io/nbprocess_demo/utils#space',
+                                      'nbprocess_demo.utils.tee': 'https://deven367.github.io/nbprocess_demo/utils#tee',
+                                      'nbprocess_demo.utils.tree': 'https://deven367.github.io/nbprocess_demo/utils#tree'}}}

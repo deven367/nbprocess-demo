@@ -3,10 +3,10 @@
 # %% auto 0
 __all__ = ['foo', 'add', 'add2']
 
-# %% ../nbs/00_core.ipynb 4
+# %% ../nbs/00_core.ipynb 3
 def foo(): pass
 
-# %% ../nbs/00_core.ipynb 5
+# %% ../nbs/00_core.ipynb 4
 def add(x: int, # number 1 
         y: int, # number 1
         z: int, # number 2
@@ -15,7 +15,7 @@ def add(x: int, # number 1
     return x + y + z
     
 
-# %% ../nbs/00_core.ipynb 8
+# %% ../nbs/00_core.ipynb 7
 def add2(x: int, # number 1 
         y: int, # number 1
         z: int, # number 2
